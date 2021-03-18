@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+  <html lang="uz">
+  <head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="icon" href="pokemon.png" type="image/x-icon">
+  	<title>Pokemons</title>
+  </head>
+  <body>
+  	<div class="container">
+  		<!-- <form class="search-form" method="GET" > -->
+  			<input class="pokemon__name-input" type="search" placeholder="Pokemon name">
+        <button class="pokemons-search-button" type="button">Search pokemons</button>
+      <!-- </form> -->
+      <ul class="pokemons" >
+
+      </ul>
+      <template id="template">
+        <li class="pokemon">
+         <img class="pokemon__images"></img>
+         <h3 class="pokemon__name">Pokemons name.</h3>
+       </li>
+     </template>
+   </div>
+   <script src="js/pokemons.js"></script>
+   <script src="js/script.js"></script>
+ </body>
+ </html>
