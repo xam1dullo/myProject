@@ -1,0 +1,1 @@
+let siteNav = document.querySelector('nav');
