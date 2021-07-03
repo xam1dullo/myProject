@@ -1,0 +1,61 @@
+.first{
+	width: 100%;
+	position: relative; 
+}
+.first span{
+	position: absolute;
+	right: 0;
+	top: -1px;
+	cursor: pointer;
+	background: orange;
+	color: red;
+	border-radius: 0 5px 5px 0  ;
+	font: bold 18px Arial;
+	padding: 16px;
+}
+.first span:hover{
+	background-color:red;
+	color: #fff;
+}
+
+#myModal{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content{
+	border: 1px solid red;
+	width: 60%;
+	margin: 10% auto;
+	padding: 25px 15px;
+	background-color: gold;
+	border-radius:  15px;
+	animation: one .5s ease;
+} 
+@keyframes one{
+	form{
+		transform: scale(0);
+	}
+	to{
+		transform: scale(1);
+
+	}
+}
+.btn-close{
+	float: right;
+	font: bold 16px Arial;
+	border-radius:  5px;
+	cursor: pointer;
+}
+#showModal{
+	padding: 7px;
+	color: #fff;
+	background-color: skyblue;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
